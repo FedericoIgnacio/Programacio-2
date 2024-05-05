@@ -1,4 +1,4 @@
-#Calculadora de Promedio: con Ciclo while
+#Calculadora de Promedio
 con = 0
 suma = 0
 def promedio(resultado):
@@ -12,21 +12,3 @@ while(con < 3):
     suma = suma + num
 
 print("El promedio es: ", promedio(suma))
-
-
-#Calculadora de Promedio:
-"""
-suma = 0
-num = int(input("Ingrese el numero 1"))
-suma = int(suma + num)
-
-num = int(input("Ingrese el numero 2"))
-suma = int(suma + num)
-
-num = int(input("Ingrese el numero 3"))
-suma = int(suma + num)
-
-print("su numero es", suma)
-
-print("El promedio es: ", promedio(suma))
-"""
