@@ -1,15 +1,10 @@
 #Contador de Palabras
 
-Frase = input("Ingrese su frase: " )
+print("Ingrese su frase")
+frase = input()
 
-Cantidad = len(Frase)
-lista = [len(Frase)]
+palabras = frase.split()
 
-print (lista)
+cantidad = len(palabras)
 
-
-
-""" 
-con = 0
-while (con < len(Frase)):
-     """
+print("La cantidad de palabras que hay en su frase son ", cantidad)
